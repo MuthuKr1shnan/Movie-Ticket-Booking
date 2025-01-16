@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Irish+Grover&family=Kaushan+Script&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-bg">
+      <div class="head-line">
+        <div class="heading-with-logo">
+          <div class="head-logo"><img src="" alt="" /></div>
+          <h2><span class="text-style">MK</span> Cinema</h2>
+        </div>
+        <h1>Enjoy your Movie</h1>
+        <h3>Book your <span class="text-style">Ticket</span> here</h3>
+      </div>
+
+      <div class="container">
+        <div class="drop-area" id="drop-area">
+          <div class="drop-img"><img src="drag.svg" alt="" /></div>
+          <p class="drag-txt">
+            Drag and Drop here or <a href="">Click here</a>
+          </p>
+        </div>
+        <div class="inst">
+          <div class="inst-icon"><img src="info1.svg" alt="" /></div>
+          <h5>Upload Your Photo as JPG, PNG (max size:1Mp)</h5>
+        </div>
+        <div class="form-area">
+          <form action="" id="inputform">
+            <label for="">
+              Name <input type="text" id="name" required />
+            </label>
+            <label for="">
+              Email ID <input type="email" id="email" required />
+            </label>
+            <label for="">
+              GitHub User Name<input type="text" id="username" required />
+            </label>
+            <div class="btn-container">
+              <a class="btn" id="submit" onclick="saveData()"
+                >Generate Your Ticket!</a
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+      <input type="file" id="fileInput" accept="image/*" hidden />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
