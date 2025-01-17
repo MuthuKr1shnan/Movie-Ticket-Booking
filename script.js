@@ -128,7 +128,7 @@ fileInput.addEventListener('change', (event) => {
 c.addEventListener('click', () => {
   b.click();
 });
-
+const form = document.getElementById('inputform');
 // Add event listener to the form's submit event
 form.addEventListener("submit",(event) => {
   event.preventDefault(); // Prevent default form submission
