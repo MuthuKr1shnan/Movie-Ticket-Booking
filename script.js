@@ -132,6 +132,6 @@ c.addEventListener('click', () => {
 // Add event listener to the form's submit event
 form.addEventListener("submit",(event) => {
   event.preventDefault(); // Prevent default form submission
-  saveData(); // Call the saveData function
+  
 
 });
