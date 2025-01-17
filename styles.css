@@ -228,3 +228,7 @@ i {
     color: #DB54FF;
     font-family: "Irish Grover", serif;
 }
+button{
+    all: unset;
+    width:100% ;
+}
