@@ -39,7 +39,7 @@ form {
 
 }
 
-.drop-area {
+#drop-area {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +80,7 @@ label>input {
     padding-left: 5px;
     font-size: .9rem;
     font-weight: 80;
-
+   
 
     height: 30px;
 
@@ -214,7 +214,7 @@ i {
     }
 }
 
-.drop-area:hover {
+#drop-area:hover {
     border: #BEFF54;
     box-shadow: 0 0 15px 5px rgba(82, 249, 60, 0.6);
 }
@@ -230,5 +230,13 @@ i {
 }
 button{
     all: unset;
-    width:100% ;
+    width: 100%;
 }
+input {
+    caret-color: #DB54FF; /* Changes the blinking caret to red */
+  }
+
+  .dragover{
+    border: #eaf942 ;
+    box-shadow: 0 0 10px 5px rgb(230, 248, 63);
+  }
